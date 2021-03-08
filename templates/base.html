@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lazer Eyes for $BTC</title>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+		<!-- INCLUDING JQUERY-->
+		<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+	</head>
+	<body>
+		<section class="mobile-none">
+			{% block content %}
+			{% endblock %}
+		</section>
+		<div id="toosmall">
+			<p><b>This site does not support mobile/tablet view.</b> Please visit this site on a larger screen.</p>
+		</div>
+	</body>
+</html>

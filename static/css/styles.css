@@ -1,0 +1,194 @@
+html {
+	filter: saturate(1.4);
+	background: url("lazerbg6.png") no-repeat center center fixed;
+	background-size: cover;
+	/*background-position: center 35%;
+	background-repeat: no-repeat;*/
+	margin-top: 0px;
+	max-width: 1600px;
+}
+
+h1 {
+	font-family: "Archia Regular";
+	font-size: 45px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 54px;
+	letter-spacing: -0.03em;
+	text-align: center;
+	background: black;
+	color: white;
+	width: 455px;
+	padding: 8px 16px;
+	margin-bottom: 24px;
+}
+
+h2 {
+	font-family: "Formular";
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 34px;
+	letter-spacing: -0.03em;
+	text-align: left;
+	margin-bottom: -24px;
+}
+
+#directions {
+	font-family: "Space Mono Regular";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.03em;
+	text-align: left;
+	background: white;
+	border: solid 1px black;
+	padding: 16px 32px;
+	width: 600px;
+}
+
+#content {
+    position: relative;
+    display: inline-block;
+    margin-top: 175px;
+    margin-left: 150px;
+	zoom: 1.2;
+    -moz-transform: scale(1.2);
+}
+
+#uploadfile {
+	font-family: "Formular";
+	font-size: 16px;
+	line-height: 20px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	background: #FAFAFA;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	width: 265px;
+	height: 50px;
+	vertical-align: middle;
+	padding: 12px 24px;
+	margin-top: -4px;
+	margin-right: 16px;
+}
+
+#uploadfile:hover, #submit:hover {
+	border: 2px solid blue;
+}
+
+#uploadfile:hover {
+	padding: 11px 23px;
+}
+
+#submit {
+	font-family: "Formular";
+	font-size: 16px;
+	letter-spacing: -0.02em;
+	text-align: center;
+	background: #A3FF77;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	width: 200px;
+	height: 50px;
+	margin-top: -8px;
+}
+
+form p {
+	display: inline-block;
+}
+
+#credit {
+	font-family: "Formular";
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 15px;
+	letter-spacing: 0em;
+	text-align: left;
+	position: absolute;
+	bottom: 8px;
+	left: 24px;
+}
+
+#credit a, #credit a:visited {
+	color: blue;
+}
+
+#credit a:hover {
+	opacity: 0.35;
+}
+
+#toosmall {
+	display: none;
+}
+
+
+
+
+
+@media screen and (max-width: 1500px) {
+	#content {
+		margin-left: 150px;
+		margin-top: 250px;
+		zoom: 1;
+	    -moz-transform: scale(1);
+	}
+}
+
+@media screen and (max-width: 1300px) {
+	#content {
+		margin-top: 300px;
+		margin-left: 150px;
+		zoom: 0.9;
+	    -moz-transform: scale(0.9);
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	#toosmall {
+		font-family: "Formular";
+		display: block;
+		position: relative;
+		font-size: 14px;
+		font-style: normal;
+		font-weight: 400;
+		line-height: 20px;
+		letter-spacing: 0em;
+		text-align: center;
+		width: 222px;
+		margin: 0 auto;
+		padding: 8px 24px;
+		border: solid 1px black;
+		margin-top: 35%;
+	}
+	html {
+		background: none;
+	}
+	.mobile-none {
+		display: none;
+	}
+}
+
+
+@font-face {
+font-family: 'Archia Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Archia Regular'), url('Archia-Regular.otf') format('otf');
+}
+
+@font-face {
+font-family: 'Formular';
+font-style: normal;
+font-weight: normal;
+src: local('Formular'), url('formular.otf') format('otf');
+}
+
+@font-face {
+font-family: 'Space Mono Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Space Mono Regular'), url('SpaceMono-Regular.ttf') format('ttf');
+}
